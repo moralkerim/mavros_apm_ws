@@ -13,6 +13,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/node_launch.py']),
         ('share/' + package_name + '/launch', ['launch/apm_launch.py']),
+        ('share/' + package_name + '/launch', ['launch/apm_launch_ser.py']),
         ('share/' + package_name + '/config', glob('config/*.yaml')),
     ],
     install_requires=['setuptools'],
