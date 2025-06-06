@@ -1,0 +1,10 @@
+mavros:
+  ros__parameters:
+    plugin_whitelist:
+      - odom
+      - imu
+      - gps
+      - sys_status
+      - sys_time
+    plugin_blacklist: []
+
